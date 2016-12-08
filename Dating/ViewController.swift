@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func endEmailInput(_ sender: Any) {
+        print("end email input")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

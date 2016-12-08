@@ -14,6 +14,7 @@
 		990DA2BB1DEC67F600936449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990DA2B91DEC67F600936449 /* LaunchScreen.storyboard */; };
 		990DA2C61DEC67F600936449 /* DatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA2C51DEC67F600936449 /* DatingTests.swift */; };
 		990DA2D11DEC67F600936449 /* DatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA2D01DEC67F600936449 /* DatingUITests.swift */; };
+		996C85311DF9AED200370DAE /* CoupleChoosePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C85301DF9AED200370DAE /* CoupleChoosePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		990DA2CC1DEC67F600936449 /* DatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990DA2D01DEC67F600936449 /* DatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingUITests.swift; sourceTree = "<group>"; };
 		990DA2D21DEC67F600936449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996C85301DF9AED200370DAE /* CoupleChoosePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoupleChoosePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				990DA2B01DEC67F600936449 /* AppDelegate.swift */,
 				990DA2B21DEC67F600936449 /* ViewController.swift */,
 				990DA2B41DEC67F600936449 /* Main.storyboard */,
+				996C85301DF9AED200370DAE /* CoupleChoosePhotoViewController.swift */,
 				990DA2B71DEC67F600936449 /* Assets.xcassets */,
 				990DA2B91DEC67F600936449 /* LaunchScreen.storyboard */,
 				990DA2BC1DEC67F600936449 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				990DA2B31DEC67F600936449 /* ViewController.swift in Sources */,
 				990DA2B11DEC67F600936449 /* AppDelegate.swift in Sources */,
+				996C85311DF9AED200370DAE /* CoupleChoosePhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +518,7 @@
 				990DA2D71DEC67F600936449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		990DA2D81DEC67F600936449 /* Build configuration list for PBXNativeTarget "DatingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				990DA2DA1DEC67F600936449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		990DA2DB1DEC67F600936449 /* Build configuration list for PBXNativeTarget "DatingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				990DA2DD1DEC67F600936449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
