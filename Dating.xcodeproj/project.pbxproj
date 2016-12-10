@@ -14,6 +14,7 @@
 		990DA2BB1DEC67F600936449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990DA2B91DEC67F600936449 /* LaunchScreen.storyboard */; };
 		990DA2C61DEC67F600936449 /* DatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA2C51DEC67F600936449 /* DatingTests.swift */; };
 		990DA2D11DEC67F600936449 /* DatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990DA2D01DEC67F600936449 /* DatingUITests.swift */; };
+		994570D41DFB9C2F003A37A6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994570D31DFB9C2F003A37A6 /* MapKit.framework */; };
 		996C85311DF9AED200370DAE /* CoupleChoosePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C85301DF9AED200370DAE /* CoupleChoosePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		990DA2CC1DEC67F600936449 /* DatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990DA2D01DEC67F600936449 /* DatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingUITests.swift; sourceTree = "<group>"; };
 		990DA2D21DEC67F600936449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994570D31DFB9C2F003A37A6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		996C85301DF9AED200370DAE /* CoupleChoosePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoupleChoosePhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				994570D41DFB9C2F003A37A6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				990DA2C41DEC67F600936449 /* DatingTests */,
 				990DA2CF1DEC67F600936449 /* DatingUITests */,
 				990DA2AE1DEC67F600936449 /* Products */,
+				994570D21DFB9C2F003A37A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				990DA2D21DEC67F600936449 /* Info.plist */,
 			);
 			path = DatingUITests;
+			sourceTree = "<group>";
+		};
+		994570D21DFB9C2F003A37A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				994570D31DFB9C2F003A37A6 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
